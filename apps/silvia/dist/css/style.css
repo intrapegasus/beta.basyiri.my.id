@@ -1,0 +1,46 @@
+#canvas {
+	background: url('../gfx/background.png');
+}
+.overlay {
+	pointer-events: none;
+	width: 640px;
+	height: 480px;
+}
+.fixed {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+}
+.score-text, .energy-text, #energy, #score {
+	pointer-events: none;
+	position: absolute;
+}
+.score-text, .energy-text {
+	font-family: impact;
+	font-size: 30px;
+	color: #999999;
+}
+#energy, #score {
+	color: #444444;
+	font-family: impact;
+	font-size: 58px;
+}
+
+#energy {
+	bottom: 0px;
+	left: 10px;
+	text-align: right;
+	width: 85px;
+}
+.energy-text {
+	bottom: 6px;
+	left: 100px;
+}
+#score {
+	top: 0px;
+	right: 10px;
+}
+.score-text {
+	right: 120px;
+	top: 6px;
+}
