@@ -1,0 +1,63 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.container{
+    background-color: cyan;
+    max-width: 50%;
+    margin: auto;
+    margin-top:10% ;
+    border: 3px solid black;
+    border-radius: 10px;
+}
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding:5% 5% 1% 
+}
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: black;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin: 2%;
+    cursor: pointer;
+}
+
+p{
+    font-weight: bold;
+}
+
+#increment-btn {
+    background:rgb(237 233 233 / 45%);
+}
+#increment-btn:hover{
+    background-color:rgba(255, 230, 230, 0.719);
+}
+
+#save-btn {
+    background-color: #a3caa3e1;
+}
+#save-btn:hover {
+    background-color: #c7e7c7;
+}
+
+
+@media screen and (max-width: 500px) {
+    button{
+        width: 100px;
+    }
+}
