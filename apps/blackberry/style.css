@@ -1,0 +1,97 @@
+:root {
+    --textColor: #FFFF00
+    --font: 'Karla', sans-serif;
+}
+
+html {
+    margin: 0;
+    hight: 100%;
+    
+    background-image: url('azhartasya.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: var(--font);
+    color: #f7047a;
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: fit-content;
+    min-height: 100%;
+}
+
+.description {
+    color: var(--textColor);
+    text-align: center;
+    margin: 27px auto;
+    margin-top: 10px;
+    width: 90%;
+    max-width: 500px;
+}
+
+.profilePicture, .profilePicture img {
+    position: relative;
+    width: 130px;
+    height: 130px;
+    display: block;
+    margin: 35px auto 20px;
+    border-radius: 50%;
+    -webkit-tap-highlight-color: transparent;
+    
+}
+
+.userName {
+    color: var(--textColor);
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1.25;
+    display: block;
+    font-family: var(--font);
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+}
+
+.links {
+    max-width: 675px;
+    width: auto;
+    display: block;
+    margin: 27px auto;
+}
+
+.link {
+    position: relative;
+    background-color: #490c75;
+    color: cyan;
+    border: solid magenta 2px;
+    border-radius: 10px;
+    font-size: 1rem;
+    text-align: center;
+    display: block;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    padding: 10px; 
+    text-decoration: none;
+    -webkit-tap-highlight-color: #870847;
+}
+
+@media (hover: hover) {
+    .link:hover {
+        background-color: #870847;
+    }
+}
+
+@media (hover: hover) {
+    .link:hover {
+        background-color: #870847;
+    }
+}

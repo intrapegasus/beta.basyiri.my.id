@@ -1,0 +1,66 @@
+.button {
+    background-color: rgb(27, 33, 100);
+    border-color: rgb(27, 33, 100);
+    color: white;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight:400;
+    width: 65px;
+    height: 65px;
+    margin: 3px;
+    cursor: pointer;
+}
+#save {
+    height: 50px;
+    width: 120px;
+}
+#cancel {
+    background-color:rgb(235, 0, 8);
+    border-color: rgb(160, 46, 50);
+    height: 50px;
+    width: 150px;
+}
+#cancel:hover {
+    background-color: red;
+}
+#inputBox {
+    border-radius: 5px;
+    font-size: 20px;
+    border: 1px solid rgb(27, 33, 100);
+    box-shadow: 0 0 10px rgb(27, 33, 100);
+    resize: none;
+}
+#delete {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);
+    width: 117px;
+}
+#tab {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);
+    width: 118px;
+}
+#capsLock {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);
+    width: 150px;
+}
+#return {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);  
+    width: 108px;
+}
+#shift {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);
+    width: 166px;
+}
+#space {
+    background-color: rgb(160, 46, 50);
+    border-color: rgb(160, 46, 50);
+    width: 418px;
+}
+
+button:hover {
+    background-color: rgb(160, 46, 50);
+}

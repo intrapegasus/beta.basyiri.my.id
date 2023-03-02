@@ -1,0 +1,64 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100vh;
+	position: relative;
+}
+
+.all-section {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 100px;
+	padding: 10px;
+}
+
+.chake-div {
+	position: relative;
+	width: 100px;
+	height: 40px;
+	border-radius: 30px;
+	background-color: #3333;
+	transition: 0.3s;
+}
+
+.play-click {
+	background-color: #0074E861;
+}
+
+
+.top-div {
+	position: absolute;
+	box-sizing: border-box;
+	overflow: hidden;
+	left: 0px;
+	top: -5px;
+	width: 50px;
+	height: 50px;
+	background-color: #333;
+	border-radius: 50%;
+	transition: 0.3s;
+}
+
+.round-in-div {
+	left: 50%;
+	background-color: #0074E8;
+}
+
+.top-div i {
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 17px;
+	cursor: pointer;
+}
+
+
+.Pause-Icon {
+	display: none;
+}
+
